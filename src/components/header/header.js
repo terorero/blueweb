@@ -26,7 +26,7 @@ export default function Header(){
       <div className="headerContainer">
         <div className="logo">
           <span>
-            <Link to="/">Blue Edge</Link>
+            <Link to="/">Devin Conde</Link>
           </span>
         </div>
         <div className="headNav">
@@ -53,12 +53,12 @@ export default function Header(){
             open={Boolean(anchorEl)}
             onClose={handleClose}
           >
-            <MenuItem><Link to="/">Home</Link></MenuItem>
+            <MenuItem><Link to="/">Inicio</Link></MenuItem>
             <MenuItem><Link to="/unescape">Unescape</Link></MenuItem>
             <MenuItem>
-              <a href="https://github.com/blueedgetechno">Github</a>
+              <a href="https://github.com/terorero">Github</a>
             </MenuItem>
-            <MenuItem><a href="mailto:blueedgetechno@gmail.com">Contact</a></MenuItem>
+            <MenuItem><a href="mailto:info@devinconde.com">Contact</a></MenuItem>
           </Menu>
         </div>
       </div>
